@@ -1,0 +1,168 @@
+body{
+    margin: 0px;
+    line-height: 1.42857143;
+}
+/*  1rst part */
+
+#navbar{
+    position: fixed;
+    width: 100%;
+    background-color:#222222;
+    padding: 10px 15px;
+    font-size: 12px;
+    font-family: Arvo;
+    
+    
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+.link{
+    float: right;
+    color: grey;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.link1{
+    
+    color: #E74C3C;
+    text-decoration: none;
+    
+}
+
+#home{
+    background-image: url('../images/hero-image.jpg');
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+}
+
+h1{
+    margin-top: 0px;
+    padding-top: 100px;
+    font-size: 400%;
+    font-family: Arvo;
+    font-weight: lighter;
+
+}
+#pHome{
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 120%;
+    margin-bottom: 30px;    
+
+}
+.learn{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Helvetica;
+    font-size: 210%;
+    background-color: #d9534f;
+    padding: 15px;
+    border-radius:5px;
+}
+p{
+    font-size: 21px;
+}
+.code{
+    padding-top:30px;
+}
+/* 1rst part*/
+
+/*2nd part*/
+
+.container1{
+    text-align: center;
+    font-family: Helvetica;
+}
+hr{
+    border-top: 1px solid #e74c3d;
+    width: 160px;
+    margin-top: 15px;
+    
+}
+h2{
+    color: #E74C3C;
+    font-family: Arvo;
+    font-weight: lighter;
+    font-size: 30px;
+    
+    
+}
+h3{
+    color: #E74C3C;
+    font-family: Arvo;
+    font-weight: lighter;
+    font-size: 26px;
+}
+
+.massAcademy{
+    color: #E74C3C;
+    
+}
+
+/* 2nd part*/
+/* 3rd part*/
+#getInvolved{
+    background-color: #F5F5F5;
+    padding-bottom: 50px;
+   
+    
+}
+
+.container2{
+    text-align: center;
+    width: 100%;
+    font-family: Helvetica;
+    margin-bottom: 50px;
+    display: inline-flex;
+}
+
+.col{
+    width: 33%;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.fa-4x{
+    font-size: 50px;
+}
+.light{
+    color: white;
+}
+.dark{
+    color: #333333;
+}
+
+.link1{
+    border-color: #ccc;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    border-width: 1px;
+    
+}
+
+
+
+/* 3rd part*/
+/* last part*/
+
+/* last part*/
+
+ #back-to-top{
+   float: right;
+   
+}
+.arrow {
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    
+}

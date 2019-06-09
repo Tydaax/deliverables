@@ -1,0 +1,160 @@
+body {
+    margin: 0px;
+    font-size: 24px;
+    font-family: 'Arvo', courier, serif;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+h2,
+h3 {
+    color: rgb(231, 76, 60);
+    margin: 1px;
+    font-weight: 300;
+}
+
+button {
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(217, 83, 79);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+}
+
+button:hover {
+    background-color: rgb(216, 56, 50);
+}
+
+hr {
+    border: none;
+    border-top: 1px double rgb(236, 123, 113);
+    width: 10%;
+    overflow: visible;
+    text-align: center;
+    height: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.containernav {
+    max-width: 1000px;
+    font-size: 16px;
+    margin: auto;
+    display: flex;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+
+.nav {
+    display: inline;
+    margin-left: auto;
+}
+
+#cards {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+    margin: 10px 40px 20px 40px;
+    flex-grow: 1;
+}
+
+.pp {
+    margin-top: 5px;
+}
+
+.bubu {
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: rgba(199, 195, 195, 0.849);
+    background-color: rgb(255, 255, 255);
+    color: rgb(234, 111, 99);
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.bubu:hover {
+    background-color: rgba(199, 195, 195, 0.849);
+}
+
+#header {
+    background-color: rgb(34, 34, 34);
+    color: rgb(151, 154, 155);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#home {
+    background-image: url("../images/hero-image.jpg");
+    background-size: cover;
+}
+
+#who {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0px;
+}
+
+.whoo {
+    max-width: 1000px;
+    margin: auto;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 15px 5px 0px 5px;
+    margin-top: 10px;
+}
+
+#whooo {
+    max-width: 1000px;
+    margin: auto;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#get-involved {
+    background-color: rgb(245, 245, 245);
+    margin: auto;
+}
+
+#footer {
+    background-color: rgb(247, 76, 60);
+    padding-top: 50px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+#back-to-top {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+}

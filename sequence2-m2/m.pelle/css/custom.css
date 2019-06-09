@@ -1,0 +1,276 @@
+/*  http://www.makerbased.com/oml/  */
+
+
+body {
+    margin: 0;
+    font-family: Arvo;
+    font-size: 21px;
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+.pink-color{
+    color: #E74C3C;
+}
+
+.p-font2 {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    margin: 0 auto 10px;
+}
+
+#header {
+    background-color: #222222;
+    padding: 14px 0;
+    position: fixed;
+    width: 100%;
+}
+
+.container {
+    max-width: 1150px;
+    height: 100%;
+    margin: auto;
+}
+
+.top-logo{
+    float: left;
+}
+.nav {
+    float: right;
+}
+
+.nav a {
+    color: #ACAEAF;
+    margin: 5px 13px 0;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.burger {
+    display: none;
+    border-radius: 5px;
+    border: 1px solid #949494;
+    background-color: #222222;
+    padding: 3px;
+}
+.burger span{
+    display: block;
+    border-radius: 5px;
+    width: 24px;
+    height: 2px;
+    margin: 5px;
+    background-color: white;
+}
+
+#home {
+    background-image: url("../images/hero-image.jpg");
+    background-position: top 50px left;
+    /*background-repeat: no-repeat;
+    background-size: cover;*/
+    padding: 100px 25px 50px;
+    color: white;
+}
+
+.home-title {
+    font-size: 62px;
+    font-weight: normal;
+    margin: 0 auto 50px;
+    line-height: 70px;
+}
+
+.home-description {
+    margin: 0px 50px 40px;
+}
+
+#who {
+    background-color: white;
+    color: black;
+    padding: 60px 0 30px 0;
+}
+
+.big-paragraph {
+    padding: 0 10px;
+}
+
+#get-involved {
+    background-color: #F5F5F5;
+    color: black;
+    padding: 30px 0 40px;
+}
+
+.category {
+    display: flex;
+}
+
+.small-paragraph {
+    padding: 0 10px;
+    max-width: 400px;
+}
+
+#footer {
+    background-color: #E74C3C;
+    padding: 150px 0 35px 0;
+    width: 100%;
+    position: absolute;
+}
+
+.bottom-brand{
+    float: left;
+}
+
+.med-title{
+    color: #E74C3C;
+    font-weight: normal;
+    margin: 15px auto;
+}
+.small-title{
+    color: #E74C3C;
+    font-weight: normal;
+    margin: 0 auto 10px;
+}
+.line-title {
+    border: 0.5px solid #E74C3C;
+    width: 150px;
+    margin: 0 auto 25px;
+}
+
+.big-button {
+    background-color: rgb(241, 103, 85);
+    border: 1px solid rgb(206, 60, 55);
+    border-radius: 7px;
+    color: white;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.big-button:hover {
+    background-color: #D2322D;
+    border: 1px solid rgb(206, 60, 55);
+    border-radius: 7px;
+    color: white;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.small-button {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    color: #E74C3C;
+    padding: 10px 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.small-button:hover {
+    background-color: #EDEDED;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: #E74C3C;
+    padding: 10px 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .container{
+        max-width: 940px;
+    }
+    #home {
+        padding: 100px 25px 40px;
+    }
+    .home-title {
+        font-size: 56px;
+        margin: 0 auto 30px;
+        line-height: 61px;
+    }
+    .home-description {
+        margin: 0px 50px 30px;
+    }
+  }
+  
+@media only screen and (max-width: 991px) {
+    .container{
+        max-width: 720px;
+    }
+    .home-title {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .home-description {
+        margin: 0px 15px 30px;
+    }
+    .category {
+        display: inline-block;
+    }
+    .small-paragraph {
+        padding: 25px 10px;
+        max-width: 720px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 17px;
+    }
+    #home {
+        padding: 80px 25px 25px;
+    }
+    .home-title {
+        font-size: 24px;
+        line-height: 25px;
+    }
+    .home-description {
+        margin: 0px 20px 30px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .big-button {
+        font-size: 17px;
+        padding: 12px 15px;
+    }
+    .big-button:hover {
+        font-size: 17px;
+        padding: 12px 15px;
+    }
+    .big-paragraph {
+        padding: 0 20px;
+    }
+    .med-title {
+        font-size: 30px;
+    }
+    .small-title {
+        font-size: 25px;
+    }
+    .p-font2 {
+        line-height: 25px;
+    }
+    .bottom-brand {
+        max-width: 600px;
+        height: 100%;
+    }
+
+    .burger {
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
+}

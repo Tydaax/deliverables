@@ -1,0 +1,225 @@
+body{
+    margin:0;
+    color:#333;
+    font-family:"Helvetica neue",Helvetica,Arial, sans-serif;
+    right: 0;
+    left: 0;
+}
+
+.container{
+    right: 0;
+    left: 0;
+    margin:auto;
+
+
+
+}
+#nav{
+    background-color:#222;
+    border-color:#080808;
+    padding: 10px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index:1030;
+}
+    
+#nav>div{
+    display:flex;
+
+}
+
+#nav>div>div{
+
+    margin-left: auto;
+    display: inline-flex;
+    color:white;
+    font-family: 'Arvo', courier, serif;
+}
+#home{
+    background-image:url("../images/hero-image.jpg") ;
+    background-size: cover;
+    padding:25px;
+    height: 600px;
+   
+   
+}
+.home-title{
+    color:white;
+    text-align: center;
+    font-family:'Arvo', courier, serif;
+    font-size:60px;
+    font-weight: 200;
+    margin: 0.67em;
+
+}
+.home-p{
+    color:white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:21px;
+    margin-bottom: 30px;
+    font-weight: 100;
+    padding: 0 50px;
+}
+
+.home-button{
+    display:inline-block;
+    margin:auto;
+    background-color:#d9534f;
+    border-radius:4px;
+    border:1px solid transparent;
+    color:white;
+    margin-bottom:0;
+    font-size:36px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:6px 12px;
+    letter-spacing: 1px;
+    font-weight:400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    white-space: nowrap;
+    line-height: 1.42857143;
+    user-select: none;
+    
+}
+.home-button:hover{
+    background-color:#d2322d;
+    border-color: #ac2925;
+
+}
+.home-image{
+    display:block;
+    margin:auto;
+}
+#link1{
+    margin-right: 20px;
+
+}
+.lien{
+    cursor: pointer;
+    color:#ccc;
+    font-size:13px;
+}
+.lien:hover{
+    cursor: pointer;
+    color:white;
+}
+/* who*/
+.homepage{
+    text-align: center;
+   padding-bottom: 30px;
+   padding-top: 30px;
+   margin:0px 27px;
+
+   border:100%;
+}
+
+.homepage>h2{
+    color: #e74c3c;
+    font-family: 'Arvo', courier, serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.homepage>p{
+    font-size:21px;
+    margin: 0 0 10px;
+    font-weight: 300;
+    
+    
+}
+.massiveacademy{
+    color: #e74c3c;
+}
+.homepage>hr{
+border-top: 1px solid #e74c3d;
+width:160px;
+margin-top: 15px
+}
+/*get involved*/
+#get-involved{
+    background-color: #f5f5f5;
+}
+.homepage>div>div>h3{
+    color: #e74c3c;
+    font-family: 'Arvo', courier, serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.homepage>div>div>p{
+    font-size:21px;
+    font-weight: 300;
+   
+}
+.homepage>p{
+    font-size:21px;
+    margin: 0 0 10px;
+    padding-left:75px;
+    padding-right:75px;
+    font-weight: 300;
+}
+/*pour les petites div gauche droite centre*/
+#position{
+display:inline-block;
+height: 313px;
+margin-left: 15px;
+margin-right: 15px;
+text-align: center;
+
+}
+#gauche{
+    float:left;
+   padding:0 15px;
+    height: 313px;
+    width:323px;
+}
+#droite{
+    float: left;
+    padding:0 15px;
+    height: 313px;
+    width: 323px;
+
+}
+#centre{
+    float: left;
+    height: 313px;
+    width: 323px;
+    padding:0 15px;
+
+}
+.btn{
+    background-color: #fff;
+    border-color: #ccc;
+    border-style:solid;
+    color:#E74C3C;
+    font-size:14px;
+    border-radius:4px;
+    cursor: pointer;
+    padding:6px 10px;
+    font-size:14px
+}
+.btn:hover{
+    background-color: #ebebeb;
+    border-color:#adadad;
+   
+   
+
+}
+/*footer*/
+footer{
+    background-color: #f74c3c;
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+
+#img_footer{
+    margin-left:30px;
+    padding-bottom:10px;
+    
+}
+
+    
+

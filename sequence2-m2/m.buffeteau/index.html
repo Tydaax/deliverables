@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>One Million Lines</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/custom.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+      
+
+  <div id="navbar">
+    <nav class="container">
+      <img src="images/top-logo.png" id="navimg">
+      <div id=navitems>
+        <a href="#who">Who we are</a>
+        <a href="#get-involved" id="GetInvolved">Get involved</a>
+      </div>
+    </nav>
+  </div>
+
+<div id="home">
+  <div class="container">
+      <h1 id="h1home">Our goal is to inspire<br>Tallahassee to write 1,000,000<br>lines of code_</h1>
+      <p id="phome">All over the country people are taking the <strong>HOUR OF CODE</strong>  challenge issued by
+      <strong>CODE.org.</strong> Millions of lines of<br> code are being written. In the capital of Florida, Tallahassee,
+      the community is taking the challenge and our goal<br> is to write 1,000,000 lines of code_
+      </p>
+
+    <a href="#who" id="ahome">Learn more »</a>
+    <div id="imghome">
+      <img src="images/code.png" >
+    </div>
+  </div>
+</div>
+
+    <div id="who" class="container">
+      <img src="images/academy-brand-med.png" id="imgwho">
+      <h2 id="h2who">who we are</h2>
+      <hr width="15%" size="1" color="#F24C3D">
+      <p id="pwho">We are <a href="#" class="red">MASSIVE academy.</a> We aim to improve education through both method - effective
+        project-based learning - and material - by teaching skills that are applicable to improving your life today.
+      </p>
+    </div>
+
+<div id="get-involved">
+  <div class="container">
+      <h2 id="h2involved">GET INVOLVED</h2>
+      <hr width="15%" size="1" color="#F24C3D">
+    <div id="section" class="grid-float">
+      <div class="col-float">
+          <div class="circle">
+              <i class="fas fa-user"></i>
+          </div>
+              <h1 class="h3involved">students</h1>
+              <p class="pinvolved">Want to learn how to code? Want to help us get to 1,000,000 lines? Click the a below and we'll let you know how to get involved.</p>
+              <a class="buttoninvolved" href="#">Start Learning »</a>
+      </div>
+      <div class="col-float">
+          <div class="circle">
+              <i class="fas fa-pen"></i>
+          </div>
+              <h1 class="h3involved">educators</h1>
+              <p class="pinvolved2">Want to bring this initiative to your school or institution? Awesome! Click the a below and we'll make it happen.</p>
+              <a class="buttoninvolved" href="#">Start Learning »</a>
+      </div>
+      <div class="col-float">
+          <div class="circle">
+              <i class="fas fa-money-bill-wave"></i>
+          </div>
+              <h1 class="h3involved">sponsors</h1>
+              <p class="pinvolved">We love all the support we get to help host more events, and empower more lives with the knowledge of coding. Click to get involved.</p>
+              <a class="buttoninvolved" href="#">Start Learning »</a>
+      </div>
+    </div>
+  </div>
+</div><!-- /#get-involved -->
+
+    <footer id="footer">
+      <div class="container">
+        <img src="images/one-million-bottom-brand.png">
+      </div>
+    </footer>
+
+    <div id="back-to-top">
+      <!-- Votre code ici -->
+      <a href="#" id="scroll" style="display: none;"><span></span></a>
+    </div><!-- /#back-to-top -->
+
+    <script>
+      
+$(document).ready(function(){ 
+    $(window).scroll(function(){ console.log ($(this).scrollTop())
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+    </script>
+
+  </body>
+</html>

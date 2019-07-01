@@ -1,0 +1,270 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #686868
+}
+
+.red {
+    text-decoration: none;
+    color: #F24C3D;
+}
+
+.container {
+    /* On ajoute une marge sur les cotés de l'écran */
+    padding-right: 15px;
+    padding-left: 15px;
+
+    /* Et on centre */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Sur les grands écrans, on limite la largeur du contenu */
+@media (min-width: 1200px){
+    .container {
+        width: 1170px;
+    }
+}
+
+.display {
+    display: inline;
+}
+
+/* navbar */
+
+#navbar {
+    background-color:#272626;
+    color: white;
+    font-family: Arvo;
+    position: sticky;
+    top: 0;
+}
+
+#navitems {
+    text-align: right;
+    padding: 18px;
+    color: #949495;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+#navimg {
+    position: absolute;
+    top: 16px;
+    left: 200px;
+}
+
+#GetInvolved {
+    margin-left: 30px;
+}
+
+/* homepage */
+
+#home {
+    background-image: url("../images/hero-image.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 97%;
+    color: white;
+    font-family: Arvo;
+}
+
+#h1home {
+    padding-top: 55px;
+    font-size: 60px;
+    font-weight: lighter;
+    line-height: 70px;
+}
+
+#phome {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+#ahome {
+    background-color: #d9534f;
+    color: white;
+    font-size: 30px;
+    border: none;
+    padding: 15px 20px;
+    margin-top: 40px;
+    border-radius: 7px;
+}
+
+#imghome {
+    padding: 40px;
+}
+
+/* WHO */
+
+#who {
+    text-align: center; 
+    color: #373738;
+    font-family: Arvo;
+    height: 400px;
+}
+
+#imgwho {
+    margin-top: 50px;
+}
+
+#h2who{
+    font-size: 32px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #F24C3D;
+    margin-top: 20px;
+}
+
+#pwho {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+/*get involved*/
+
+
+#get-involved { 
+    text-align: center;
+    font-family: Arvo;
+    background-color: #F7F7F7;
+    font-weight: 300;
+    height: 500px;
+}
+
+#section {
+    margin-bottom: 10px;
+    min-height: 100px;
+}
+  
+#section::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.grid-float::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .col-float {
+    width: calc((70% - 20px) / 3);
+    margin-left: 55px;
+    margin-right: 55px;
+    height: auto;
+    float: left;
+  }
+  
+  .col-float:nth-child(n+3) {
+    margin-right: 0;
+  }
+
+#h2involved {
+    font-size: 32px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #F24C3D;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+.h3involved {
+    text-transform: uppercase;
+    color: #F24C3D;
+    font-weight: lighter;
+}
+
+.pinvolved {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.pinvolved2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 39px;
+}
+
+.buttoninvolved {
+    background-color: #fff;
+    border-color: #ccc;
+    color: #d9534f;
+    font-size: 15px;
+    border-style: solid;
+    border-width: thin;
+    padding: 15px 20px;
+    margin-top: 15px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.circle {
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#footer {
+    background-color: #f74c3c;
+    padding-top: 180px;
+    padding-bottom: 30px;
+}
+
+
+
+/* bouton top */
+
+#scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:#f74c3c;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff;
+}
+#scroll:hover {
+    background-color:#e74c3c;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}

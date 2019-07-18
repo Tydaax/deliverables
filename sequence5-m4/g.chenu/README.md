@@ -14,7 +14,7 @@ Le choix du design global du site OpenNC s'est basé sur les demandes du client 
 - **Newsletters** permet la gestion des newsletters via une interface depuis le dashboard Wordpress.
 
 ### 3. CSS
-    Quelques modifications ont été apporté au fichier style.css du theme wordpress afin de coller au mieux avec la charte graphique du client. Notamment pour le choix des couleurs pour rester dans le même esprit que le log d'OpenNC.
+Quelques modifications ont été apporté au fichier style.css du theme wordpress afin de coller au mieux avec la charte graphique du client. Notamment pour le choix des couleurs pour rester dans le même esprit que le log d'OpenNC.
 
 ## Pages du sites
 ### Homepage

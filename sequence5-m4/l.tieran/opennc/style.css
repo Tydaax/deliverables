@@ -1,0 +1,155 @@
+/***/
+/**/
+/*Custom css*/
+/**/
+/***/
+
+/*Hide site title*/
+.site-title {
+	display: none;
+}
+
+/*Hide blue bar at the top of the site*/
+body.site {
+	border-top: none !important;
+}
+
+/*Body dimensions*/
+.body .container {
+	max-width: none;
+	width: inherit;
+	height: auto;
+	padding: 0;
+}
+
+/*Slider on main page*/
+.djslider {
+	max-height: 500px !important;
+}
+.slide-desc {
+	display: none;
+}
+.dj-image {
+	height: 500px !important;
+}
+
+/*Logo*/
+.brand img {
+	max-width: 50%;
+	padding-left: 5px;
+	padding-top: 20px;
+}
+
+/*Background colors*/
+body {
+	background-color: #effafd !important;
+}
+.body .container {
+	background-color: #effafd !important;
+	background-image: url(../images/fond.png);
+	background-repeat: no-repeat;
+	background-position: 0 bottom;
+}
+
+/*Articles on home page*/
+.blog-featured {
+	width: 50%;
+	margin: auto;
+	padding-top: 5px;
+}
+.item {
+	border: solid 1px lightblue;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	background-color: lightblue;
+}
+
+/*Navbar*/
+.barre-nav {
+	margin-bottom: 15px;
+}
+.barre-nav li a {
+	font-size: 18px;
+	line-height: 22px;
+	border-top: solid 1px #0088cc;
+	border-bottom: solid 1px #0088cc;
+	margin-right: -1px;
+	border-radius: 0;
+}
+.barre-nav li a:hover {
+	background: #0088cc;
+	color: white;
+}
+.barre-nav li:last-child a {
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-right: solid 1px;
+}
+
+/*Navbar dropdown*/
+.parent {
+	position: relative;
+	display: inline-block;
+}
+.parent ul li:last-of-type {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.nav-child {
+	display: none;
+	position: absolute;
+	min-width: max-content;
+	background-color: hsl(193, 78%, 96%) !important;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	margin-top: -2px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.nav-child li a {
+	color: #0088cc;
+	border: none !important;
+	line-height: 40px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.nav-child li:hover {
+	background-color: #0088cc !important;
+}
+.nav-child li:hover a {
+	color: white;
+}
+.parent:hover .nav-child {
+	display: block;
+}
+
+/*Page navigation disabled*/
+.pagenav {
+	display: none;
+}
+
+/*Breadcrumbs*/
+.breadcrumb {
+	background: transparent;
+}
+
+/*Cards*/
+.cardsflex .cardsflex pre {
+	display: flex;
+	height: 500px;
+	padding: 0;
+	border: none;
+}
+.homecards {
+	width: 20%;
+	background-color: lightgrey;
+	transition: .5s;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.homecards:hover {
+	background-color: white;
+}
+.homecards img {
+	float: right;
+}

@@ -1,0 +1,17 @@
+#run mysql
+mysql -u root -p
+
+#Import database to msl 
+mysql -u root -p <test1.sql
+
+#import file csv in mysql 
+LOAD DATA LOCAL INFILE '/home/sgayon/Téléchargements/books.csv' INTO TABLE books  FIELDS TERMINATED BY ','  ENCLOSED BY '"'   LINES TERMINATED BY '\n'  IGNORE 1 ROWS  (title,author,genre,height,publisher);
+
+#save database 
+mysqldump --user=mon_user --password --databases mydb > test1.sql
+
+#compress the backup
+mysqldump --user=mon_user --password --databases mydb | gzip > test1.sql.gz
+
+#mysql restore
+mysql --user=root --password mydb < test1.sql

@@ -1,0 +1,41 @@
+#### IMPORT DATABASE SCRIPT ####
+
+Pour importer les données dans la BDD, le dossier courant doit comporter les fichiers : 
+- books.csv
+- script.sql
+- import-db.sh
+
+Si c'est le cas vous devez ouvrir un terminal dans le dossier contenant ces 3 fichiers et entrer la commande suivante : 
+"chmod +x import-db.sh"
+
+Ensuite vous pouvez entrer la commande suivante :
+"sudo ./import-db.sh mdp_bdd"
+
+Le paramètre mpd_bdd correspond au password de l'user root de votre base de données.
+
+Si tout ce passe bien un message s'affiche pour confirmer l'importation.
+
+#### BACKUP DATABASE SCRIPT #### 
+
+Pour sauvegarder les données de la BDD, le dossier courant doit comporter le fichier : 
+- backup-script.sh
+
+Si c'est le cas vous devez ouvrir un terminal dans le dossier courant et entrer la commande suivante : 
+"chmod +x backup-script.sh"
+
+ensuite entrer la commande suivante :
+"sudo ./backup-script.sh mdp_bdd database_name"
+
+#### RESTORE DATABASE SCRIPT ####
+
+Pour restorer les données dans la BDD, le dossier courant doit comporter le fichier :
+- restore-script.sh
+
+Si c'est le cas vous devez ouvrir un terminal dans le dossier courant et entrer la commande suivante : 
+"chmod +x restore-script.sh"
+
+ensuite entrer la commande suivante pour restorer la BDD à la date fournie dans le paramètre date avec le format "dd-mm-yy" :
+"sudo ./restore-script.sh mdp_bdd database_name date"
+
+
+

@@ -1,0 +1,4 @@
+LOAD DATA LOCAL INFILE 'books.csv' INTO TABLE livres FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS (titre,auteur,genre,nombre_page,editeur);
+mysql -u root -p < script.sql
+
+
